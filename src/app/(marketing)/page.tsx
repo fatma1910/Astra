@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Home, Work, Features, Pricing, Reviews} from "@/components";
+import { Home, Work, Features, Pricing, Reviews, News} from "@/components";
 
 
 
@@ -10,7 +10,7 @@ const HomePage = () => {
     return (
         <section className="w-full relative flex flex-col items-center justify-center px-4 md:px-0 py-8">
             
-            <Home/>
+            <Home />
 
 
             {/* How it works */}
@@ -29,7 +29,7 @@ const HomePage = () => {
             <Reviews/>
 
             {/* news */}
-            
+            <News/>
         </section>
     )
 };
